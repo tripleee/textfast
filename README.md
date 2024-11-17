@@ -40,11 +40,9 @@ That is it, now go to google and just test it, and then add more shortcuts.
 ### Import 
 
 For advanced users or if you exported the list from other installation
-(for who exported the list, you actually don't have to change a thing,
-just import it, you can skip it).
 For those who don't want to add shortcuts one by one,
-you can create a [JSON file](/example.json) following
-this example with your words and just import it and **save** it.
+you can create a JSON file following [`example.json`](example.json)
+with your words and just import it and **save** it.
 
 ```
 [ {"replace": "foo", "with": "bar"},
