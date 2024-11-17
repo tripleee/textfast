@@ -153,15 +153,15 @@ function tutorialTuor() {
   intro.setOptions({
     steps: [
       {
-        intro: 'This is the page where you add yours shortcuts. The plugin will change the shortcut to the replacement when you type a SPACE, so it will check the last word you typed and changed it, if needed.',
+        intro: 'This is the page where you add your shortcuts. The plugin will change the shortcut to the replacement when you type a SPACE, so it will check the last word you typed and change it if needed.',
       },
       {
         element: document.querySelector('.action-buttons'),
-        intro: 'Every action is done by these buttons here.'
+        intro: 'Every action is done by these buttons.'
       },
       {
         element: document.querySelector('#replace_words'),
-        intro: 'Here is where you will find your list of words. The first column is the shortcut you want to type to get substituted by the word/phrase in the second column. In the first column, the shortcut, should not have space.'
+        intro: 'Here is where you will find your list of words. The first column is the shortcut you want to type to get substituted by the word/phrase in the second column. In the first column, the shortcut should not have spaces.'
       },
       {
         element: document.querySelector('#add'),
@@ -177,7 +177,7 @@ function tutorialTuor() {
       },
       {
         element: document.querySelector('#import'),
-        intro: 'Here you can import a list of shortcuts. You can use the one exported from the addon or created your own. The shortcuts imported will be append, not replace, you current list.'
+        intro: 'Here you can import a list of shortcuts. You can use the ones exported from the addon or create your own. The shortcuts imported will be appended to, not replace, your current list.'
       },
       {
         element: document.querySelector('#export'),
@@ -185,11 +185,11 @@ function tutorialTuor() {
       },
       {
         element: document.querySelector('#clean'),
-        intro: 'You can clean your entire list to start or import a new one. Caution, it will delete all words.'
+        intro: 'You can erase your entire list to start or import a new one. Caution, it will delete all words.'
       },
       {
         element: document.querySelector('#config'),
-        intro: 'Here you can upload/donwload shortcuts manually using FirefoxSync and you can change some plugin\'s behaviors.'
+        intro: 'Here you can upload / download shortcuts manually using FirefoxSync and you can change some of the plugin\'s behaviors.'
       },
     ]
   });
